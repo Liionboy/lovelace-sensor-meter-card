@@ -5,7 +5,7 @@ A compact, theme-aware Lovelace card for numeric Home Assistant sensors. It show
 ## Features
 
 - Works with configurable numeric `sensor` entities; no entity IDs are built in
-- Shows the live value and unit using the sensor's reported precision (up to two decimals by default)
+- Shows the live value and unit (including `%`) using the sensor's reported precision (up to two decimals by default)
 - Optional progress bar with configurable minimum and maximum scale
 - Uses the same four signature palettes as the other cards in the collection: `aurora`, `ocean`, `sunset`, and `lavender`
 - Uses entity friendly name and icon by default, with optional overrides

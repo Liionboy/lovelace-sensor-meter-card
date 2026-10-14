@@ -107,7 +107,7 @@ class SensorMeterCard extends HTMLElement {
       maximumFractionDigits: decimals,
     }).format(value);
     const unit = attributes.unit_of_measurement || "";
-    return `${formatted}${unit === "%" ? "" : unit ? ` ${unit}` : ""}`;
+    return `${formatted}${unit === "%" ? "%" : unit ? ` ${unit}` : ""}`;
   }
 
   _onCardClick() {
