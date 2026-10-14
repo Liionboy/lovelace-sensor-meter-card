@@ -1,0 +1,9 @@
+{
+  "name": "lovelace-sensor-meter-card",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "check": "node --check sensor-meter-card.js"
+  }
+}
